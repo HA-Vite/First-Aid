@@ -1,0 +1,18 @@
+[
+  {
+    "source": "Front",
+    "timestamp": "2025-06-21T22:58:16.444Z",
+    "message": "Test error",
+    "stack": "stack info",
+    "url": "http://localhost",
+    "userAgent": "MyBrowser"
+  },
+  {
+    "source": "Back",
+    "timestamp": "2025-06-21T23:58:35.341Z",
+    "message": "forced test error from backend",
+    "stack": "Error: forced test error from backend\n    at C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\Server.js:16:9\n    at Layer.handleRequest (C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\router\\index.js:291:5)\n    at jsonParser (C:\\Users\\lenovo\\Desktop\\First-Aid Project\\Backend\\node_modules\\body-parser\\lib\\types\\json.js:100:7)",
+    "url": "/api/test-server-error",
+    "method": "GET"
+  }
+]
