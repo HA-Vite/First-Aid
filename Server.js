@@ -27,6 +27,7 @@ app.use(
 
 // 2) Helmet Config
 // Activating and Specifying the Configurations
+/*
 app.use(
   helmet({
     contentSecurityPolicy: true , // CSP anti-malicious code 
@@ -37,6 +38,7 @@ app.use(
     noSniff: true // forbid running disguised scripts
   })
 );
+*/
 
 // 3) Rate Limiting Activation and Configuration
 const limiter = rateLimit({
